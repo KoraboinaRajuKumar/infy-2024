@@ -1,5 +1,5 @@
 
-Docker Commands:
+Git Commands:
 ================
 
 git init
@@ -13,3 +13,36 @@ git push -u origin main
 git remote add origin https://github.com/KoraboinaRajuKumar/dockerApp.git
 git branch -M main
 git push -u origin main
+
+
+===================================================================================
+
+Clone a particular branch:
+
+git clone <url> defalut > main branch.
+
+git clone -b <branch-name> <url>
+
+develop-jan-2024
+===========================================================================================================
+
+
+In Real time Git use:
+===================
+
+
+1).create new repo from main repo.
+
+2).git clone -b branchname repourl (clone particular created branch code)
+
+3).check the branch   git brnach
+
+4).add the chnages or files After   git status
+
+5).git add --a   Adding the files to local
+
+6).git commit -m "added changes"  reflect on local
+
+7)git push.
+
+
