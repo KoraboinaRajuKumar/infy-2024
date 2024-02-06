@@ -160,6 +160,31 @@ $ sudo yum update -y
 $ sudo yum install docker -y
 $ sudo service docker start
 
+
+==========================================================================================
+NEW COMMANDS:
+==========
+
+sudo -i   superuser permissions
+
+yum update -y  update exiting packages.
+
+hostname Docker
+
+then exit   
+
+sudo -i
+
+docker --version
+
+systemctl status docker    
+
+systemctl start docker
+
+=========================================================================================
+
+
+
 # add ec2-user to docker group by executing below command (to give docker permissions to ec2-user accnt)
 $ sudo usermod -aG docker ec2-user
 
