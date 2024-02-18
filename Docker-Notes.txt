@@ -1380,6 +1380,12 @@ How to connect one network to onther network?
 docker network --help<Know the info>
 
 
+docker compose up -d --scale database=2    two instance created based on requirement
+
+
+
+
+
 
 
 
