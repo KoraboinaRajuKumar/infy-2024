@@ -1304,6 +1304,89 @@ $ uname -r
 
 
 
+====================================================================================
+
+
+New commands: 2024
+==================
+
+
+DOCKER:
+======
+
+After install docker in LINUX.
+
+sudo -i   superuser permissions
+
+yum update -y  update exiting packages.
+
+hostname Docker
+
+then exit   
+
+sudo -i
+
+docker --version
+
+systemctl status docker    
+
+systemctl start docker
+
+
+
+Docker Networking:
+=================
+
+create contilner:
+
+$ docker run -it -d --name Test<container name> centos
+
+
+check the containers 
+
+$ docker ps
+
+
+connect container
+$ docker exec -it Test bash
+
+check the container network id
+$ ip a
+
+check the conatiner working or not
+$ ping google.com
+
+close the container
+$ exit
+
+Delete running container?
+$ docker rm -f <containerid>
+
+
+
+
+*******1).How containers will communicate?
+        using networks every container will run 172.17.0.0/16 network only
+         thats way one container talk onther container automatically.
+   
+
+what is the reason custom VPC?
+Ans:sucure purpose
+
+How to connect one network to onther network?
+  $ docker network connect<optiontoconnect> bridge<defaultnetwork> Db1<customnetwork>
+    docker network connect bridge Db1
+
+docker network --help<Know the info>
+
+
+docker compose up -d --scale database=2    two instance created based on requirement
+
+
+
+
+
+
 
 
 
