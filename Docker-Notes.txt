@@ -1385,6 +1385,11 @@ docker compose up -d --scale database=2    two instance created based on require
 
 
 
+mvn package -Dmaven.test.skip=true      skip testcase command using db issue
+
+
+
+
 
 
 
